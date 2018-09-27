@@ -1,0 +1,20 @@
+{
+  "name": "axis.wavesurfer.js",
+  "version": "1.0.0",
+  "description": "wavesurfer.js plugin to display the x and y axis",
+  "main": "",
+  "scripts": {
+    "example": "npm run example:build && npm run example:start",
+    "example:build": "browserify example/script.js > example/bundle.js",
+    "example:start": "http-server example"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "http-server": "^0.11.1",
+    "wavesurfer.js": "^2.0.6"
+  }
+}
