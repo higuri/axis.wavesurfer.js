@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": "..",
+    "outDir": "../build",
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2016", "dom"],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2016"
+  },
+  "exclude": [
+    "../node_modules"
+  ]
+}
