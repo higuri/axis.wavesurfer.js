@@ -1,11 +1,18 @@
 const WaveSurfer = require("wavesurfer.js");
 const WaveSurferAxis = require("../src/index.js");
 
-const ws = WaveSurfer.create({
+document.addEventListener("DOMContentLoaded", () => {
+  const ws = WaveSurfer.create({
     container: "#waveform",
+    fillParent: false,
+    minPxPerSec: 500,
+    scrollParent: true,
     plugins: [
-        WaveSurferAxis.create()
+      WaveSurferAxis.create()
     ]
+  });
+  ws.empty();
+  window.setTimeout(() => {
+    ws.load("tone.mp3");
+  }, 3000);
 });
-ws.load("tone.mp3");
-ws.axis.foo();
