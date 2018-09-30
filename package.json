@@ -1,19 +1,24 @@
 {
-  "name": "",
-  "version": "1.0.0",
-  "description": "",
-  "main": "build/src/main.js",
+  "name": "axis.wavesurfer.js",
+  "version": "0.1.0",
+  "description": "A wavesurfer.js plugin to display the x and y axis",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "node npm_scripts/build.js",
     "build:watch": "node npm_scripts/build_watch.js",
-    "prepublishOnly": "node npm_scripts/dist.js",
     "example": "npm run example:build && npm run example:start",
     "example:build": "browserify example/script.js > example/bundle.js",
     "example:start": "http-server example",
+    "prepublishOnly": "node npm_scripts/dist.js",
     "clean": "node npm_scripts/clean.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["wavesurfer.js", "axis"],
+  "author": {
+    "name": "Yusuke Higuchi",
+    "email": "higuri36@gmail.com",
+    "url": "https://github.com/higuri"
+  },
   "license": "MIT",
   "dependencies": {
     "wavesurfer.js": "^2.0.6"
