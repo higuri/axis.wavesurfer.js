@@ -24,4 +24,4 @@ const wavesurfer = WaveSurfer.create({
 ```
 
 ## License
-[MIT license](LICENSE)
+[MIT license](https://github.com/higuri/axis.wavesurfer.js/blob/master/LICENSE)
