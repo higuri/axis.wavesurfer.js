@@ -1,4 +1,4 @@
 # exclude everything except dist and src
 **/*
 !dist/**
-!src/**
+!src/*.ts

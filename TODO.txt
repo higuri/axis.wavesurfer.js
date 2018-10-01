@@ -1,0 +1,6 @@
+* Fix @types/wavesurfer.js:WaveSurferPlugin
+  class -> interface
+  wrong ctor params order
+* cleanup npm_scripts (use simple command)
+* write example in ts
+* add test

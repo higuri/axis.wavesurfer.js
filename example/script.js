@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     ]
   });
-  ws.empty();
   window.setTimeout(() => {
     ws.load("tone.mp3");
   }, 3000);
