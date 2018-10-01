@@ -1,6 +1,8 @@
 * Fix @types/wavesurfer.js:WaveSurferPlugin
   class -> interface
   wrong ctor params order
+* gh-pages: use npm installed 'axis.wavesurfer.js'
+  cf. master/example: use ../build/src/index.js
 * cleanup npm_scripts (use simple command)
 * write example in ts
 * add test
