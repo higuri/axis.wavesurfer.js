@@ -1,6 +1,6 @@
 {
   "name": "axis.wavesurfer.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A wavesurfer.js plugin just to display axes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,10 @@
     "prepublishOnly": "node npm_scripts/dist.js",
     "clean": "node npm_scripts/clean.js"
   },
-  "keywords": ["wavesurfer.js", "axis"],
+  "keywords": [
+    "wavesurfer.js",
+    "axis"
+  ],
   "author": {
     "name": "Yusuke Higuchi",
     "email": "higuri36@gmail.com",
