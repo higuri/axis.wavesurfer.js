@@ -1,7 +1,7 @@
 {
   "name": "axis.wavesurfer.js",
   "version": "0.1.0",
-  "description": "A wavesurfer.js plugin to display axes",
+  "description": "A wavesurfer.js plugin just to display axes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

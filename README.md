@@ -1,5 +1,5 @@
 # axis.wavesurfer.js
-A wavesurfer.js plugin to display axes. 
+A [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js) plugin just to display axes. 
 
 ## Installing
 ```shell
