@@ -1,16 +1,18 @@
 import * as WaveSurfer from "wavesurfer.js";
 
+export = WaveSurferAxis;
+
 // WaveSurferAxis
 // TODO: fix d.ts:
 // * class -> interface
 // * WaveSurferPlugin.constructor
-export default class WaveSurferAxis {
+class WaveSurferAxis {
 
   // WaveSurferAxis.create()
-  public static create(params: object): WaveSurfer.PluginDefinition {
+  public static create(params?: object): WaveSurfer.PluginDefinition {
     return {
       name: "axis",
-      params: params,
+      params: params || { },
       instance: WaveSurferAxis as { new(ws: WaveSurfer, params: object): WaveSurfer.WaveSurferPlugin }
     };
   }
@@ -130,4 +132,3 @@ interface WaveSurferAxisOptions {
   // if true, hide axes when wav is loaded
   hideOnReady?: boolean;
 }
-module.exports = WaveSurferAxis;

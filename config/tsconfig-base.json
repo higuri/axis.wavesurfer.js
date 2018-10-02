@@ -6,8 +6,6 @@
     "allowUnusedLabels": false,
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2016", "dom"],
-    "module": "commonjs",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -15,7 +13,7 @@
     "pretty": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2016"
+    "target": "es5"
   },
   "exclude": [
     "../node_modules"
