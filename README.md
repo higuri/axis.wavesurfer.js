@@ -16,7 +16,7 @@ const wavesurfer = WaveSurfer.create({
   plugins: [
     WaveSurferAxis.create({
       width: 2,
-      color: "black",
+      color: "darkgray",
       hideOnReady: false
     })
   ]

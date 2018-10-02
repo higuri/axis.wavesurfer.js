@@ -4,12 +4,14 @@ const WaveSurferAxis = require("../build/src/index.js");
 document.addEventListener("DOMContentLoaded", () => {
   const ws = WaveSurfer.create({
     container: "#waveform",
-    minPxPerSec: 1000,
+    minPxPerSec: 2000,
+    waveColor: 'violet',
+    progressColor: 'purple',
     scrollParent: true,
     plugins: [
       WaveSurferAxis.create({
         width: 2,
-        color: "black",
+        color: "darkgray",
         hideOnReady: false
       })
     ]
