@@ -1,6 +1,8 @@
 # axis.wavesurfer.js
 A [wavesurfer.js](https://github.com/katspaugh/wavesurfer.js) plugin just to display axes. 
 
+![Screenshot](https://raw.githubusercontent.com/higuri/axis.wavesurfer.js/gh-pages/Screenshot.gif "Screenshot")
+
 ## Installing
 ```shell
 npm install axis.wavesurfer.js
