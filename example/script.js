@@ -1,5 +1,5 @@
 const WaveSurfer = require("wavesurfer.js");
-const WaveSurferAxis = require("../build/src/index.js");
+const {WaveSurferAxis} = require("../build/src/index.js");
 
 document.addEventListener("DOMContentLoaded", () => {
   const ws = WaveSurfer.create({

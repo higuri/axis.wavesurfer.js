@@ -1,12 +1,10 @@
 import * as WaveSurfer from "wavesurfer.js";
 
-export = WaveSurferAxis;
-
 // WaveSurferAxis
 // TODO: fix d.ts:
 // * class -> interface
 // * WaveSurferPlugin.constructor
-class WaveSurferAxis {
+export class WaveSurferAxis {
 
   // WaveSurferAxis.create()
   public static create(params?: object): WaveSurfer.PluginDefinition {
