@@ -11,7 +11,7 @@ npm install axis.wavesurfer.js
 ## Usage Example
 ```javascript
 const WaveSurfer = require("wavesurfer.js");
-const WaveSurferAxis = require("axis.wavesurfer.js");
+const {WaveSurferAxis} = require("axis.wavesurfer.js");
 
 const wavesurfer = WaveSurfer.create({
   container: "#waveform",
