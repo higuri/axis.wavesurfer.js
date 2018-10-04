@@ -23,6 +23,10 @@
     "url": "https://github.com/higuri"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/higuri/axis.wavesurfer.js/issues"
+  },
+  "homepage": "https://github.com/higuri/axis.wavesurfer.js#readme",
   "dependencies": {
     "@types/wavesurfer.js": "^2.0.0"
   },
