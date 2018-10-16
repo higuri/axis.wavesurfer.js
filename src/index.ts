@@ -69,9 +69,6 @@ export class WaveSurferAxis {
   private _onReady(): void {
     if (this.hideOnReady) {
       this._removeAxisElements();
-    } else {
-      // redraw axes with consideration for scroll bar height
-      this._appendAxisElements();
     }
   }
 
@@ -82,12 +79,10 @@ export class WaveSurferAxis {
     }
     this._removeAxisElements();
     const axisX = document.createElement("div");
-    const axisXTop =
-      this.waveContainer.clientHeight / 2 - this.width / 2;
     axisX.style.cssText =
       `background-color: ${this.color};` +
       "position: absolute;" +
-      `top: ${axisXTop}px;` +
+      `top: 50%;` +
       "left: 0px;" +
       `width: ${this.waveContainer.offsetWidth}px;` +
       `height: ${this.width}px;`;
