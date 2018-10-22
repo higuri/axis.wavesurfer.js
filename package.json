@@ -28,6 +28,10 @@
     "url": "https://github.com/higuri/axis.wavesurfer.js/issues"
   },
   "homepage": "https://github.com/higuri/axis.wavesurfer.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/higuri/axis.wavesurfer.js.git"
+  },
   "dependencies": {},
   "peerDependencies": {
     "wavesurfer.js": "^2.0.0"
